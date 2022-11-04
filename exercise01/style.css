@@ -1,0 +1,32 @@
+header, header > div, main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+header {
+    flex-direction: column;
+}
+header > div {
+    width: 200px;
+    justify-content: space-between;
+}
+#btn1 {background-color: red;
+}
+#btn2 {background-color: blue;
+}
+#btn3 {background-color: pink;
+}
+#btn4 {background-color: orange;
+}
+#box {
+    width: 275px;
+    height: 275px;
+    display: flex;
+    border: solid 1px #000;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+}
